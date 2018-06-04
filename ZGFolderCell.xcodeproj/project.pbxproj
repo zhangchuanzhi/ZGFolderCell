@@ -13,6 +13,10 @@
 		239C0E4120C0E89D001D1DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239C0E4020C0E89D001D1DD9 /* Assets.xcassets */; };
 		239C0E4420C0E89D001D1DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239C0E4220C0E89D001D1DD9 /* LaunchScreen.storyboard */; };
 		239C0E4720C0E89D001D1DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 239C0E4620C0E89D001D1DD9 /* main.m */; };
+		239C0E5020C0EBE7001D1DD9 /* ZGRotatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 239C0E4F20C0EBE7001D1DD9 /* ZGRotatedView.m */; };
+		239C0E5320C0FC3A001D1DD9 /* UIView+ZGSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 239C0E5220C0FC3A001D1DD9 /* UIView+ZGSnapShot.m */; };
+		239C0E5620C1260B001D1DD9 /* ZGFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 239C0E5520C1260B001D1DD9 /* ZGFolderCell.m */; };
+		23AB3CD020C4CEF3001329E1 /* ZGDemoFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AB3CCF20C4CEF3001329E1 /* ZGDemoFoldingCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		239C0E4320C0E89D001D1DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		239C0E4520C0E89D001D1DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		239C0E4620C0E89D001D1DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		239C0E4E20C0EBE7001D1DD9 /* ZGRotatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGRotatedView.h; sourceTree = "<group>"; };
+		239C0E4F20C0EBE7001D1DD9 /* ZGRotatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGRotatedView.m; sourceTree = "<group>"; };
+		239C0E5120C0FC3A001D1DD9 /* UIView+ZGSnapShot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZGSnapShot.h"; sourceTree = "<group>"; };
+		239C0E5220C0FC3A001D1DD9 /* UIView+ZGSnapShot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZGSnapShot.m"; sourceTree = "<group>"; };
+		239C0E5420C1260B001D1DD9 /* ZGFolderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGFolderCell.h; sourceTree = "<group>"; };
+		239C0E5520C1260B001D1DD9 /* ZGFolderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGFolderCell.m; sourceTree = "<group>"; };
+		23AB3CCE20C4CEF3001329E1 /* ZGDemoFoldingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGDemoFoldingCell.h; sourceTree = "<group>"; };
+		23AB3CCF20C4CEF3001329E1 /* ZGDemoFoldingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGDemoFoldingCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +70,31 @@
 		239C0E3620C0E89B001D1DD9 /* ZGFolderCell */ = {
 			isa = PBXGroup;
 			children = (
+				239C0E4D20C0EBC6001D1DD9 /* ZGFolderCell */,
 				239C0E3720C0E89B001D1DD9 /* AppDelegate.h */,
 				239C0E3820C0E89B001D1DD9 /* AppDelegate.m */,
 				239C0E3A20C0E89B001D1DD9 /* ViewController.h */,
 				239C0E3B20C0E89B001D1DD9 /* ViewController.m */,
+				23AB3CCE20C4CEF3001329E1 /* ZGDemoFoldingCell.h */,
+				23AB3CCF20C4CEF3001329E1 /* ZGDemoFoldingCell.m */,
 				239C0E3D20C0E89B001D1DD9 /* Main.storyboard */,
 				239C0E4020C0E89D001D1DD9 /* Assets.xcassets */,
 				239C0E4220C0E89D001D1DD9 /* LaunchScreen.storyboard */,
 				239C0E4520C0E89D001D1DD9 /* Info.plist */,
 				239C0E4620C0E89D001D1DD9 /* main.m */,
+			);
+			path = ZGFolderCell;
+			sourceTree = "<group>";
+		};
+		239C0E4D20C0EBC6001D1DD9 /* ZGFolderCell */ = {
+			isa = PBXGroup;
+			children = (
+				239C0E4E20C0EBE7001D1DD9 /* ZGRotatedView.h */,
+				239C0E4F20C0EBE7001D1DD9 /* ZGRotatedView.m */,
+				239C0E5120C0FC3A001D1DD9 /* UIView+ZGSnapShot.h */,
+				239C0E5220C0FC3A001D1DD9 /* UIView+ZGSnapShot.m */,
+				239C0E5420C1260B001D1DD9 /* ZGFolderCell.h */,
+				239C0E5520C1260B001D1DD9 /* ZGFolderCell.m */,
 			);
 			path = ZGFolderCell;
 			sourceTree = "<group>";
@@ -97,6 +125,7 @@
 		239C0E2C20C0E89B001D1DD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZG;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = cn;
 				TargetAttributes = {
@@ -142,8 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				239C0E3C20C0E89B001D1DD9 /* ViewController.m in Sources */,
+				239C0E5020C0EBE7001D1DD9 /* ZGRotatedView.m in Sources */,
 				239C0E4720C0E89D001D1DD9 /* main.m in Sources */,
+				23AB3CD020C4CEF3001329E1 /* ZGDemoFoldingCell.m in Sources */,
 				239C0E3920C0E89B001D1DD9 /* AppDelegate.m in Sources */,
+				239C0E5620C1260B001D1DD9 /* ZGFolderCell.m in Sources */,
+				239C0E5320C0FC3A001D1DD9 /* UIView+ZGSnapShot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
